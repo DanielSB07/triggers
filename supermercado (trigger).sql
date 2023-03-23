@@ -49,10 +49,10 @@ insert into ventas(idVenta, idProducto, nombreProducto, cantidad, precioProducto
 insert into ventas(idVenta, idProducto, nombreProducto, cantidad, precioProducto) values (200, 20, 'lechuga', 1, 1300);
 insert into ventas(idVenta, idProducto, nombreProducto, cantidad, precioProducto) values (210, 21, 'espinaca', 1, 000);
 
-select * from productos;
-select * from tipoProducto;
-select * from inventario;
-select * from ventas;
+-- select * from productos;
+-- select * from tipoProducto;
+-- select * from inventario;
+-- select * from ventas;
 
 delimiter !
 CREATE TRIGGER actualizar_inventario

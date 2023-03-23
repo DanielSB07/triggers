@@ -66,3 +66,5 @@ END!
 delimiter ;
 
 insert into ventas(idVenta, idProducto, nombreProducto, cantidad, precioProducto) values (102, 10, 'manzana', 20, 20000);
+
+select * from ventas;
